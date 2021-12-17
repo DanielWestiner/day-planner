@@ -1,7 +1,7 @@
 // Setting up the current day of the week to show in the header using moment js
 
 var today = moment();
-var dayWeek = today.format("[Today is] dddd, MMMM Do,");
+var dayWeek = today.format("[Today is] dddd, MMMM Do");
 $("#currentDay").text(dayWeek);
 
 // Setting up each hour variable as array. 24hr time to make it easier to calculate
@@ -27,25 +27,50 @@ $("textarea").each(function () {
 
 
 
-let nine = $('#9AM')
+//  Setting up variable to easily store into local storage and append
+let nine = $("#9AM");
+let ten = $("#10AM");
+let eleven = $("#11AM");
+let twelve = $("#12PM");
+let one = $("#1PM");
+let two = $("#2PM");
+let three = $("#3PM");
+let four = $("#4PM");
+let five = $("#5PM");
 
+
+let row1 = $(".row1");
+let row2 = $(".row2");
+let row3 = $(".row3");
+let row4 = $(".row4");
+let row5 = $(".row5");
+let row6 = $(".row6");
+let row7 = $(".row7");
+let row8 = $(".row8");
+let row9 = $(".row9");
+
+
+// jQuery Event Listener on click
 var saveButton = $(".btn");
-saveButton.on("click", function populateStorage() {
-//   localStorage.setItem("9AM", JSON.stringify());
-    localStorage.setItem = ("nine", ($('9AM').val()));
+saveButton.on("click", function () {
+  localStorage.setItem = ("nine", "nine.val()");
+  localStorage.setItem = ("ten", "ten.val()");
+  localStorage.setItem = ("eleven", "eleven.val()");
+  localStorage.setItem = ("twelve", "twelve.val()");
+  localStorage.setItem = ("one", "one.val()");
+  localStorage.setItem = ("two", "two.val()");
+  localStorage.setItem = ("three", "three.val()");
+  localStorage.setItem = ("four", "four.val()");
+  localStorage.setItem = ("five", "five.val()");
 
 
+//   if (localStorage.getItem("nine") !== null) {
+//     let savedNote = localStorage.getItem("nine");
+//     nineAM.text(savedNote);
+//     row1.append(nineAM);
+//   }
 });
-// console.log(populateStorage);
 
-$("9AM").appendTo(localStorage.getItem("nine"));
-
-// Event Listener
+$(".row1").append(localStorage.getItem("nine"));
 
 
-
-if (localStorage.getItem($('nine')) !== null) {
-    console.log(`storage exists`);
-} else {
-    console.log(`storage not found`);
-}
