@@ -1,7 +1,8 @@
 # day-planner
+
 ## Description
 
-This project was to create a work day scheduler and planner that was formatted as a simple 9 hour calendar block on a webpage.  The app was designed to run in the browser and features dynamically updated HTML and CSS powered by jQuery.  The Moment.js library was used to work with dates and times and to populate that information on the page.
+This project was to create a work day scheduler and planner that was formatted as a simple 9 hour calendar block on a webpage. The app was designed to run in the browser and features dynamically updated HTML and CSS powered by jQuery. The Moment.js library was used to work with dates and times and to populate that information on the page.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,7 +11,7 @@ This project was to create a work day scheduler and planner that was formatted a
 
 ## Installation
 
-The files along with the assets folder were deployed using GitHub Pages and can be used to open up the webpage. The quiz is hosted through GitHub pages, at: https://danielwestiner.github.io/code-quiz/ The indivial files can be accessed through my personal GitHub repository located: https://github.com/DanielWestiner/code-quiz
+The files along with the assets folder were deployed using GitHub Pages and can be used to open up the webpage. The planner is hosted through GitHub pages, at: https://danielwestiner.github.io/day-planner/ The indivial files can be accessed through my personal GitHub repository located: https://github.com/DanielWestiner/day-planner
 
 ## Usage
 
@@ -21,7 +22,7 @@ The navigation can be used to browse different sections and will be updated as t
 
 ## Credits
 
-Collaborators on this project include the UPENN bootcamp cohort, teaching staff, and tutor Alexis San Javier who helped make edits to this project. Some concepts and syntax tips were learned from Colt Steele and his Udemy Bootcamp course. Animal trivia questions were obtained from http://www.opinionstage.com/blog/trivia-questions
+Collaborators on this project include the UPENN bootcamp cohort, teaching staff, and tutor Alexis San Javier who helped make edits to this project. Some concepts and syntax tips were learned from Colt Steele and his Udemy Bootcamp course.
 
 ## License
 
